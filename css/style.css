@@ -26,10 +26,7 @@ a[href^="tel:"] {
  text-decoration: none;
  outline: none;
 }
-textarea, input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
-	-webkit-appearance: none;
-	-moz-appearance: caret;
-}
+
 p {
 	margin-bottom: 18px;
 	font-weight: 300;
@@ -58,13 +55,13 @@ h2 {
 }
 h3 {
 	font: 300 24px/1em 'Roboto Condensed';
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	margin: 0 0 40px 0;
 	text-transform: uppercase;
 }
 h4 {
 	font: 300 14px/16px 'Roboto Condensed';
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	text-transform: uppercase;
 	margin: 0 0 22px 0;
 }
@@ -100,25 +97,21 @@ header.indent {
 	background: #f5f5f5;
 }
 .address_icon {
-	padding: 30px 0 0 0;
+	padding: 0;
 	margin: 0;
 	float: right;
 	list-style: none;
 	overflow: hidden;
 }
 .address_icon li {
-	float: left;
-	margin-left: 60px;
+	height: 20px;
 	font: 12px 'Arial';
 	color: #acacac;
-}
-.address_icon li:first-child {
-	margin-left: 0;
 }
 .address_icon li span {
 	float: left;
 	margin: 0 9px 0 0;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	font-size: 14px;
 	font-family: FontAwesome;
 }
@@ -130,7 +123,7 @@ header.indent {
 	transition: all 0.25s;
 }
 .address_icon li a:hover {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 /* menu
 ========================================================*/
@@ -173,18 +166,18 @@ nav.tm_navbar li a {
 }
 nav.tm_navbar li.active > a {
 	color: #ffffff;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 }
 nav.tm_navbar li:hover > a {
 	color: #ffffff;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
 	transition: all 0.25s;
 }
 nav.tm_navbar .sfHover > a {
 	color: #ffffff;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
 	transition: all 0.25s;
@@ -249,7 +242,7 @@ nav.tm_navbar .sub-menu > ul li span {
 }
 nav.tm_navbar .sub-menu > ul li a:hover {
 	text-decoration: none;
-	color: #e67a32 !important;
+	color: rgb(17, 46, 126) !important;
 	background: none !important;
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
@@ -257,7 +250,7 @@ nav.tm_navbar .sub-menu > ul li a:hover {
 }
 nav.tm_navbar .sub-menu > ul li.sfHover > a {
 	text-decoration: none;
-	color: #e67a32 !important;
+	color: rgb(17, 46, 126) !important;
 	background: none !important;
 }
 /* subMenu2
@@ -272,7 +265,7 @@ nav.tm_navbar .sub-menu ul ul {
 	list-style: none !important;
 	zoom: 1;
 	z-index: 11;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	padding: 10px 16px 0 16px;
 	margin: 0;
 	text-align: left;
@@ -345,7 +338,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .thumb-box p {
 	font: 14px/18px 'Roboto Condensed';
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	margin-bottom: 0;
 }
 .thumb-box1 {
@@ -506,7 +499,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	transition: all 0.4s;
 }
 .thumb-pad1 .thumbnail .caption a:hover {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .thumb-pad2 {
 	margin: 0 0 37px 0;
@@ -547,7 +540,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .thumb-pad3 .thumbnail .caption a {
 	font: 16px 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	margin-bottom: 21px;
 	display: inline-block;
 	text-transform: uppercase;
@@ -765,7 +758,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .btn-default.btn1:hover {
 	color: #ffffff;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	text-decoration: none;
 }
 .btn-default.btn2 {
@@ -790,7 +783,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .btn-default.btn2:hover {
 	color: #ffffff;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	text-decoration: none;
 	border-color: #ffffff;
 }
@@ -819,7 +812,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	color: #31353d;
 }
 .btn-default.btn3:hover {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	background: none;
 	text-decoration: none;
 }
@@ -833,7 +826,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	border-radius: 0;
 	color: #ffffff;
 	text-transform: uppercase;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	border: none;
 	float: none;
 	-webkit-transition: all 0.25s;
@@ -855,7 +848,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	margin: 0;
 	border-radius: 0;
 	color: #ffffff;
-	background: #e67a32;
+	background: rgb(17, 46, 126);
 	border: none;
 	text-transform: uppercase;
 	float: none;
@@ -888,7 +881,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	transition: all 0.25s;
 }
 .list1 li a:hover {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .list1 li:before {
 	content: '';
@@ -917,7 +910,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	transition: all 0.25s;
 }
 .list1-1 li a:hover {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .list1-1 li:before {
 	content: '';
@@ -971,7 +964,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	transition: all 0.25s;
 }
 .list3 li a:hover {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .list3 li:before {
 	content: '\f0a9';
@@ -979,7 +972,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	font-size: 12px;
 	margin: 2px 9px 0 0;
 	float: left;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .list4 {
 	margin: 0;
@@ -994,7 +987,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .list4 li time {
 	font: 300 14px 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	float: left;
 	margin: 0 11px 0 0;
 }
@@ -1037,7 +1030,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	font-size: 40px;
 	line-height: 114px;
 	font-family: FontAwesome;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	display: inline-block;
 	float: left;
 	margin: 0 40px 0 0;
@@ -1070,7 +1063,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	border-radius: 100%;
 	border: 2px solid #ddd;
 	background: none;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	font: 26px/63px 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: inline-block;
 	float: left;
@@ -1079,7 +1072,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .list7 li span em {
 	font-size: 40px;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .list7 li p {
 	margin: 0;
@@ -1117,7 +1110,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	padding: 0 5px;
 }
 .table1 td a {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	text-transform: uppercase;
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
@@ -1176,7 +1169,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	overflow: hidden;
 	height: 0px;
 	font: 11px 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	text-transform: none;
 	font-weight: normal;
 	-webkit-transition: all 0.25s;
@@ -1248,7 +1241,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	margin-bottom: 14px;
 }
 .list_carousel1 #foo1 > li p.name {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 }
 .list_carousel1 #foo1 > li strong {
 	font: 30px/1em 'Roboto Condensed';
@@ -1297,13 +1290,13 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	margin-left: 0;
 }
 .pagination a:hover {
-	background: #e67a32 !important;
+	background: rgb(17, 46, 126) !important;
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
 .pagination a.selected {
-	background: #e67a32 !important;
+	background: rgb(17, 46, 126) !important;
 }
 .pagination a span {
 	display: none;
@@ -1393,7 +1386,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	display: inline-block;
 }
 .info p a {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	text-decoration: underline;
 	-webkit-transition: all 0.25s;
 	-o-transition: all 0.25s;
@@ -1403,7 +1396,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 	color: #484848;
 }
 .mail {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	font: 14px 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: underline;
 	-webkit-transition: all 0.25s;
@@ -1427,7 +1420,7 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
 }
 .errorBox .description {
 	font: 60px/1em 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	text-transform: uppercase;
 	margin-bottom: 26px;
 }
@@ -1460,7 +1453,7 @@ footer em {
 	font-style: normal;
 }
 footer strong {
-	color: #e67a32;
+	color: rgb(17, 46, 126);
 	text-transform: uppercase;
 	font: 36px/1em 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: block;
@@ -1643,8 +1636,8 @@ footer strong {
  padding: 4px 4px 4px 0;
  margin: 30px 0 0 0;
  width: 100%;
- border: 1px solid #e67a32;
- background: #e67a32;
+ border: 1px solid rgb(17, 46, 126);
+ background: rgb(17, 46, 126);
  color: #ffffff;
  cursor: pointer;
  height: 30px;
